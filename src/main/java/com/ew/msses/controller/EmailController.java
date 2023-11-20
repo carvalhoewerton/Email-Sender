@@ -17,6 +17,7 @@ public class EmailController {
 
     @Autowired
     private EmailServices service;
+    @PostMapping()
     public void sendEmail(@Valid @RequestBody Email email) throws MessagingException {
             service.sendEmail(email.getFrom(), email.getTo(), email.getSubject(), email.getContent());
     }
