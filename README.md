@@ -1,1 +1,1 @@
-MS de enviador de email utilizando Java, Spring, JavaMail e AWS SES.
+API Java Spring that you can send e-mails using AWS SES.
